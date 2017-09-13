@@ -12,6 +12,8 @@ public class SecondActivity extends AppCompatActivity {
 
     private TextView textView;
     private Button botonVolver;
+    private Button btnNext;
+
 
 
     @Override
@@ -42,6 +44,16 @@ public class SecondActivity extends AppCompatActivity {
                 //intent.putExtra("greeter", GREETER);
                 startActivity(intent);
 
+            }
+        });
+
+
+        btnNext = (Button) findViewById(R.id.buttonGoSharing);
+        btnNext.setOnClickListener(new View.OnClickListener() {
+            @Override
+            public void onClick(View view) {
+                Intent intent = new Intent(SecondActivity.this, ThirdActivity.class);
+                startActivity(intent);
             }
         });
 

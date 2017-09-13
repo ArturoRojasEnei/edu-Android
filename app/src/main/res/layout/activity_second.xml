@@ -23,4 +23,13 @@
         android:layout_alignParentLeft="true"
         android:layout_alignParentStart="true"
         android:text="Volver" />
+
+    <Button
+        android:id="@+id/buttonGoSharing"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_below="@+id/textViewMain"
+        android:layout_centerHorizontal="true"
+        android:layout_marginTop="53dp"
+        android:text="ir a la GoSharing" />
 </RelativeLayout>
